@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: executive_sales_dashboard
+    label: Executive Sales Dashboard
+    type: dashboard
+    maturity: high
+    description: Tableau dashboard used by leadership for daily sales monitoring.
+
+    depends_on:
+      - ref('rpt_daily_sales')
+      - ref('rpt_customer_lifetime_value')
+
+    owner:
+      name: Business Intelligence
+      email: bi@example.com
+
+    url: https://tableau.example.com/views/executive-sales

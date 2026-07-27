@@ -1,0 +1,12 @@
+version: 2
+
+groups:
+  - name: data_engineering
+    owner:
+      name: Data Engineering
+      email: data-engineering@example.com
+
+  - name: business_intelligence
+    owner:
+      name: Business Intelligence
+      email: bi@example.com
