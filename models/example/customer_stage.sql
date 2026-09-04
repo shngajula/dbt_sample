@@ -7,3 +7,4 @@ select
 from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.CUSTOMER
 /* adding comments */
 /* no changes */
+/*adding more comments */
